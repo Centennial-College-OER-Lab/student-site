@@ -5,15 +5,15 @@ import { buttonVariants } from '@/components/ui/button'
 import Search from '@/components/search'
 import Anchor from '@/components/anchor'
 import { SheetLeftbar } from './leftbar'
-import { page_routes } from '@/lib/routes-config'
+// import { page_routes } from '@/lib/routes-config'
 import { SheetClose } from '@/components/ui/sheet'
 import { Icons } from '@/components/icons'
 
 export const NAVLINKS = [
-  {
+  /* {
     title: 'Docs',
     href: `/docs${page_routes[0].href}`,
-  },
+  }, */
   {
     title: 'Blog',
     href: '/blog',
