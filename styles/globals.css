@@ -204,8 +204,18 @@ code[data-theme*=' '] span {
 code[data-language='plaintext'] {
   color: rgb(39 39 42 / var(--tw-text-opacity, 1)) /* #27272a */;
 }
+/* If you want to center it and limit its maximum width */
+.unity-embed-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 960px; /* Or any max-width you prefer */
+  margin: 0 auto; /* Center the container */
+}
 
-.gear-sim {
-  /* change height for mobile only*/
-  @apply h-[300px] md:h-[650px];
+.unity-embed-container iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border: none;
 }
